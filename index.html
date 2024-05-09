@@ -9,35 +9,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
-<body class="m-0 p-0 border-0 outline-0">
-    <header class="bg-auto bg-center bg-no-repeat bg-[url('/img/banner-bg.jpg')] h-auto rounded-b-[250px] mt-0 mb-64">
-    
-        <div class="pt-10 bg-transparent w-full">
-            <div class="px-32 py-auto mx-auto text-white">
-                <div class="flex flex-row justify-between items-center">
-                    <div>
-                        <a href="#">
-                            <img src="./img/logo.png" alt="logo">
-                        </a>
-                    </div>
-                    <div class="flex items-center gap-16 font-light text-base">
-                        <a href="#">Home</a>
-                        <a href="#">Our Shop</a>
-                        <a href="#">Product Details</a>
-                        <a href="#">Contaxt Us</a>
-                        <a
-                            class="rounded-3xl bg-[#EE626B] px-6 py-2 uppercase font-medium"
-                            href="#">Sign In
-                        </a>
-                    </div>
+<body>
+    <header class="absolute w-full bg-transparent top-10 left-0 right-0 z-50">
+        <div class="mx-32 text-white">
+            <div class="flex flex-row justify-between items-center">
+                <div>
+                    <a href="#">
+                        <img src="./img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="flex items-center gap-14 font-light text-base">
+                    <a href="#">Home</a>
+                    <a href="#">Our Shop</a>
+                    <a href="#">Product Details</a>
+                    <a href="#">Contact Us</a>
+                    <a
+                        class="rounded-3xl bg-[#EE626B] px-5 py-2 uppercase font-medium"
+                        href="#">Sign In
+                    </a>
                 </div>
             </div>
-            
         </div>
+    </header>
 
-        
-        <div class="px-32">
-            <div class="grid grid-cols-2 mt-10 py-24 text-white">
+    <div class="w-full">
+        <div class="px-32 main-banner">
+            <div class="grid grid-cols-2 text-white">
                 <div>
                     <h6 class="font-medium uppercase text-2xl">Welcome to LUGX</h6>
                     <h2 class="font-bold text-5xl mt-5 mb-10 uppercase">Best gaming site ever</h2>
@@ -67,26 +64,85 @@
             </div>
         </div>
 
-        <div>
-            <div class="px-32 max-w-[1140px]">
-                <div class="grid grid-cols-4">
+        <div class="-mt-20">
+            <div class="px-32">
+                <div class="grid grid-cols-4 gap-6">
                     <div>
                         <a href="#">
-                            <div class="p-9 shadow-[rgba(0,0,0,0.15)] text-center bg-white rounded-3xl">
-                                <div class="w-24 h-24 text-center bg-[#0071f8] rounded-[50%]">
-                                    <img src="img/icons/featured-01.png" alt="">
+                            <div class="flex flex-col justify-center items-center p-9 shadow-lg shadow-[rgba(0,0,0,0.15)] text-center bg-white rounded-3xl">
+                                <div class="w-24 h-24 flex justify-center items-center bg-[#0071f8] rounded-[50%]">
+                                    <img
+                                        class="w-full max-w-11 max-h-11"
+                                        src="img/icons/featured-01.png" alt="">
                                 </div>
+                                <h4 class=" inline-block text-base mt-6 uppercase font-bold">Free Storage</h4>
                             </div>
                         </a>
                     </div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div>
+                        <a href="#">
+                            <div class="flex flex-col justify-center items-center p-9 shadow-lg shadow-[rgba(0,0,0,0.15)] text-center bg-white rounded-3xl">
+                                <div class="w-24 h-24 flex justify-center items-center bg-[#0071f8] rounded-[50%]">
+                                    <img
+                                        class="w-full max-w-11 max-h-11"
+                                        src="img/icons/featured-02.png" alt="">
+                                </div>
+                                <h4 class=" inline-block text-base mt-6 uppercase font-bold">Free Storage</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <div class="flex flex-col justify-center items-center p-9 shadow-lg shadow-[rgba(0,0,0,0.15)] text-center bg-white rounded-3xl">
+                                <div class="w-24 h-24 flex justify-center items-center bg-[#0071f8] rounded-[50%]">
+                                    <img
+                                        class="w-full max-w-11 max-h-11"
+                                        src="img/icons/featured-03.png" alt="">
+                                </div>
+                                <h4 class=" inline-block text-base mt-6 uppercase font-bold">Free Storage</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <div class="flex flex-col justify-center items-center p-9 shadow-lg shadow-[rgba(0,0,0,0.15)] text-center bg-white rounded-3xl">
+                                <div class="w-24 h-24 flex justify-center items-center bg-[#0071f8] rounded-[50%]">
+                                    <img
+                                        class="w-full max-w-11 max-h-11"
+                                        src="img/icons/featured-04.png" alt="">
+                                </div>
+                                <h4 class=" inline-block text-base mt-6 uppercase font-bold">Free Storage</h4>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
 
-    </header>
+        <div class="mt-32">
+            <div class="px-32">
+                <div class="flex flex-col justify-between">
+                    <div class="flex flex-row justify-between">
+                        <div>
+                            <h6 class="text-[#EE626B] text-sm uppercase font-bold">Trending</h6>
+                            <h2 class="text-[#1E1E1E] text-4xl capitalize font-bold mt-5">Trending Games</h2>
+                        </div>
+                        <div class="flex justify-center items-center">
+                           <a
+                            class="bg-[#EE626B] uppercase text-white text-sm font-semibold py-4 px-8 rounded-3xl"
+                            href="#">View All</a> 
+                        </div>
+                    </div>
+                    <div class="flex flex-row justify-between">
+                        <div class="relative bg-[#EEEEEE] rounded-3xl">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
 </body>
 </html>
